@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Digital+Readout:wght@500&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-sf-digital-readout: "SF Digital Readout";
+  --font-segoe-ui: "Segoe UI";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-11xl: 30px;
+  --font-size-2xs: 11px;
+  --font-size-4xs: 9px;
+  --font-size-smi: 13px;
+  --font-size-3xs: 10px;
+  --font-size-xl: 20px;
+  --font-size-xs: 12px;
+  --font-size-5xs: 8px;
+
+  /* Colors */
+  --color-darkslategray-100: #2f324b;
+  --color-gray-100: #1b1d2c;
+  --color-gray-200: #1b1b1b;
+  --color-gray-300: rgba(255, 255, 255, 0.75);
+  --color-gray-400: rgba(0, 0, 0, 0.5);
+  --color-gray-500: rgba(255, 255, 255, 0.5);
+  --color-deepskyblue-100: #00cbff;
+  --color-deepskyblue-200: #24acfa;
+  --color-deepskyblue-300: rgba(36, 172, 250, 0.25);
+  --color-deepskyblue-400: rgba(36, 172, 250, 0.5);
+  --color-white: #fff;
+  --color-forestgreen: #34af48;
+  --color-whitesmoke: rgba(243, 241, 242, 0.5);
+  --color-tomato: #ff4b4b;
+  --color-red-100: #ff0000;
+  --color-gainsboro: #e0e0e0;
+  --color-dimgray: #707070;
+  --color-purple: rgba(88, 6, 88, 0.5);
+
+  /* border radiuses */
+  --br-8xs: 5px;
+  --br-6xl: 25px;
+  --br-3xs: 10px;
+  --br-xl: 20px;
+  --br-31xl: 50px;
+  --br-9xs: 4px;
+}

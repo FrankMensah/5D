@@ -1,0 +1,95 @@
+.all4 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 14px);
+}
+.all4Wrapper {
+  left: 0;
+}
+.all4Container,
+.all4Frame,
+.all4Wrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 120px;
+}
+.all4Container {
+  left: 135px;
+}
+.all4Frame {
+  left: calc(50% - 195px);
+}
+.groupDiv {
+  left: calc(50% - 60px);
+}
+.all4Wrapper1,
+.all4Wrapper2,
+.all4Wrapper3,
+.groupDiv {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.16);
+  width: 120px;
+}
+.all4Wrapper1 {
+  left: calc(50% + 75px);
+}
+.all4Wrapper2,
+.all4Wrapper3 {
+  right: 135px;
+}
+.all4Wrapper3 {
+  right: 0;
+}
+.groupContainer {
+  top: 9px;
+  right: 15px;
+  left: 15px;
+}
+.groupContainer,
+.groupParent1,
+.groupParent2 {
+  position: absolute;
+  width: calc(100% - 30px);
+  height: 40px;
+}
+.groupParent1 {
+  top: calc(50% - 23.5px);
+  right: 15px;
+  left: 15px;
+}
+.groupParent2 {
+  right: 14px;
+  bottom: 16px;
+  left: 16px;
+}
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-deepskyblue-200);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  width: 960px;
+  height: 175px;
+}
+.hotOffload {
+  position: relative;
+  width: 960px;
+  height: 175px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-roboto);
+}

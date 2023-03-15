@@ -1,0 +1,493 @@
+.groupChild {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-deepskyblue-200);
+  height: 20px;
+}
+.groupInner,
+.groupItem {
+  width: 100%;
+  right: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--color-gray-100);
+}
+.groupItem {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 40px;
+}
+.groupInner {
+  height: 48px;
+}
+.curent,
+.groupInner {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.trackNo {
+  left: calc(50% - 230px);
+}
+.betAmount,
+.multi,
+.trackNo {
+  position: absolute;
+  top: 0;
+}
+.multi {
+  left: calc(50% - 61px);
+  font-size: var(--font-size-smi);
+}
+.betAmount {
+  left: calc(50% + 80px);
+}
+.curentParent,
+.estimateDrawTime {
+  position: absolute;
+  top: 0;
+  right: -1px;
+}
+.curentParent {
+  width: calc(100% - 188px);
+  top: 17px;
+  right: 133px;
+  left: 55px;
+  height: 15px;
+  color: var(--color-white);
+}
+.div {
+  position: absolute;
+  top: 5px;
+  left: 38.5px;
+  font-size: var(--font-size-2xs);
+}
+.div1 {
+  left: calc(50% - 277.88px);
+}
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+  top: 5px;
+}
+.div2 {
+  left: calc(50% + 58.12px);
+  font-size: var(--font-size-smi);
+}
+.div3 {
+  right: 94.26px;
+}
+.rectangleTextarea {
+  border: 1px solid var(--color-dimgray);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 0;
+  left: calc(50% - 105.88px);
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  width: 64px;
+  height: 25px;
+}
+.lineIcon {
+  position: absolute;
+  width: 100%;
+  right: 0.5px;
+  bottom: -0.5px;
+  left: -0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 4.21px;
+}
+.rectangleInput {
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  left: 133.5px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.parent {
+  position: absolute;
+  width: calc(100% - 65.24px);
+  top: 60px;
+  right: 32.74px;
+  left: 32.5px;
+  height: 35.18px;
+}
+.div4,
+.div5 {
+  position: absolute;
+  top: 4px;
+}
+.div4 {
+  left: 38.5px;
+  font-size: var(--font-size-2xs);
+}
+.div5 {
+  left: calc(50% - 277.88px);
+}
+.div6 {
+  left: calc(50% + 58.12px);
+  font-size: var(--font-size-smi);
+}
+.div6,
+.div7,
+.groupChild3 {
+  position: absolute;
+  top: 4px;
+}
+.div7 {
+  right: 94.26px;
+}
+.groupChild3 {
+  cursor: pointer;
+  left: 133.5px;
+  border-radius: var(--br-9xs);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 16px;
+  height: 16px;
+}
+.container,
+.group {
+  position: absolute;
+  width: calc(100% - 65.24px);
+  top: calc(50% - 88.03px);
+  right: 32.74px;
+  left: 32.5px;
+  height: 33.95px;
+}
+.container {
+  top: calc(50% - 37.66px);
+  right: 33.62px;
+  left: 31.62px;
+  height: 34.34px;
+}
+.groupDiv {
+  top: calc(50% + 13.11px);
+}
+.groupDiv,
+.parent1,
+.parent2,
+.parent3 {
+  position: absolute;
+  width: calc(100% - 65.24px);
+  right: 33.62px;
+  left: 31.62px;
+  height: 34.34px;
+}
+.parent1 {
+  top: calc(50% + 63.88px);
+}
+.parent2,
+.parent3 {
+  bottom: 50.77px;
+}
+.parent3 {
+  bottom: 0;
+}
+.rectangleGroup {
+  position: absolute;
+  width: calc(100% - 46px);
+  top: calc(50% - 185.5px);
+  right: 22px;
+  left: 24px;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+  height: 400.07px;
+}
+.firstDraw,
+.firstMult {
+  position: absolute;
+  left: 0;
+}
+.firstDraw {
+  top: calc(50% - 26.5px);
+}
+.firstMult {
+  bottom: 7px;
+}
+.trackDraw {
+  position: absolute;
+  top: calc(50% - 27.5px);
+  left: calc(50% - 95px);
+}
+.every {
+  position: absolute;
+  bottom: 7px;
+  left: calc(50% - 200px);
+}
+.groupChild19,
+.groupChild20,
+.groupChild21 {
+  border: 1px solid var(--color-dimgray);
+  background-color: var(--color-white);
+  position: absolute;
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  height: 32px;
+}
+.groupChild19 {
+  top: 1px;
+  left: 74px;
+  width: 226px;
+}
+.groupChild20,
+.groupChild21 {
+  width: 80px;
+}
+.groupChild20 {
+  bottom: 0;
+  left: 74px;
+}
+.groupChild21 {
+  top: 0;
+  left: calc(50% - 17px);
+}
+.drawsMaximumTrack {
+  position: absolute;
+  top: 10px;
+  left: calc(50% + 78px);
+}
+.hintEachDraws {
+  position: absolute;
+  right: -1px;
+  bottom: 7px;
+  color: var(--color-purple);
+}
+.drawS,
+.multX {
+  position: absolute;
+  bottom: 10px;
+  left: calc(50% - 63px);
+}
+.multX {
+  left: calc(50% + 26px);
+  color: var(--color-purple);
+}
+.groupChild22,
+.groupChild23 {
+  border: 1px solid var(--color-dimgray);
+  background-color: var(--color-white);
+  position: absolute;
+  bottom: 0;
+  left: calc(50% + 83px);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 79px;
+  height: 32px;
+}
+.groupChild23 {
+  left: calc(50% - 153px);
+  width: 81px;
+}
+.firstDrawParent {
+  position: absolute;
+  width: calc(100% - 160px);
+  top: 74px;
+  right: 136px;
+  left: 24px;
+  height: 79px;
+}
+.totalTrack {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 43px;
+}
+.total {
+  left: calc(50% - 230px);
+}
+.balance,
+.total,
+.totalAmount {
+  position: absolute;
+  top: calc(50% - 8px);
+}
+.totalAmount {
+  left: calc(50% + 95px);
+}
+.balance {
+  right: 135px;
+}
+.div28,
+.div29 {
+  font-size: var(--font-size-2xs);
+}
+.div28 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 113px;
+}
+.div29 {
+  left: calc(50% - 193px);
+}
+.div29,
+.div30,
+.div31 {
+  position: absolute;
+  top: calc(50% - 8px);
+}
+.div30 {
+  left: calc(50% + 180px);
+  font-size: var(--font-size-2xs);
+}
+.div31 {
+  right: 80px;
+}
+.totalTrack1 {
+  position: absolute;
+  top: calc(50% - 7px);
+  left: 135px;
+}
+.betS {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 171px);
+}
+.rectangleDiv,
+.totalTrackParent {
+  position: absolute;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-dimgray);
+  box-sizing: border-box;
+}
+.totalTrackParent {
+  width: calc(100% - 46px);
+  right: 22px;
+  bottom: 88px;
+  left: 24px;
+  border-radius: 0 0 var(--br-3xs) var(--br-3xs);
+  height: 58px;
+}
+.rectangleDiv {
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-9xs);
+  width: 16px;
+}
+.stopIfNotWinParent,
+.stopIfWinParent {
+  position: absolute;
+  bottom: 29px;
+  left: calc(50% - 83px);
+  width: 84px;
+  height: 16px;
+}
+.stopIfNotWinParent {
+  bottom: 30px;
+  left: calc(50% + 52px);
+  width: 104px;
+}
+.trackConfirm {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 40px);
+}
+.trackConfirmWrapper {
+  position: absolute;
+  right: 79px;
+  bottom: 17px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-deepskyblue-200);
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.75) inset;
+  width: 188px;
+  height: 42px;
+  color: var(--color-white);
+}
+.endTime000000,
+.no202303140023,
+.x {
+  position: absolute;
+  top: 10px;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+}
+.no202303140023 {
+  left: calc(50% + 140px);
+}
+.endTime000000,
+.x {
+  right: 82px;
+}
+.x {
+  top: 4px;
+  right: 28px;
+  font-size: var(--font-size-xl);
+}
+.rectangleParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs) var(--br-3xs) 0 0;
+  background-color: var(--color-gainsboro);
+  width: 984px;
+  height: 721px;
+}
+.track {
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: calc(50% - 17px);
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+}
+.trackWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-deepskyblue-200);
+  position: absolute;
+  top: 10px;
+  left: 272px;
+  border-radius: var(--br-8xs);
+  box-shadow: 0 3px 6px rgba(255, 255, 255, 0.75) inset;
+  width: 54px;
+  height: 25px;
+}
+.profitMarginChasing {
+  position: absolute;
+  top: calc(50% - 7.5px);
+  left: 40px;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: center;
+}
+.profitMarginChasingNumberWrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: var(--color-deepskyblue-200);
+  position: absolute;
+  top: 10px;
+  left: 341px;
+  border-radius: var(--br-8xs);
+  box-shadow: 0 3px 6px rgba(255, 253, 254, 0.75) inset;
+  width: 268px;
+  height: 25px;
+}
+.track1 {
+  position: relative;
+  width: 984px;
+  height: 721px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-roboto);
+}

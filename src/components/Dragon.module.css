@@ -1,0 +1,451 @@
+.rightNavBarChild {
+  position: absolute;
+  width: 100%;
+  top: 7px;
+  right: 0;
+  left: 0;
+  border-radius: var(--br-xl);
+  height: 39px;
+  display: none;
+}
+.rightNavBar {
+  height: calc(100% - 1px);
+  top: 1px;
+  bottom: 0;
+  background-color: var(--color-darkslategray-100);
+}
+.rightNav1,
+.rightNavBar,
+.rightNavBar1,
+.rightNavBarItem {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.rightNavBarItem {
+  top: 0;
+  background-color: var(--color-deepskyblue-300);
+  height: 39px;
+}
+.rightNav1,
+.rightNavBar1 {
+  bottom: 0;
+}
+.rightNavBar1 {
+  height: 100%;
+  top: 0;
+  background-color: var(--color-deepskyblue-400);
+}
+.rightNav1 {
+  height: calc(100% - 1px);
+  top: 1px;
+}
+.recent {
+  margin: 0;
+}
+.recentDraw {
+  position: absolute;
+  bottom: 1px;
+  left: calc(50% - 17.5px);
+}
+.recentDrawWrapper {
+  position: absolute;
+  height: calc(100% - 5px);
+  top: 5px;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-deepskyblue-300);
+  width: 85px;
+  text-align: center;
+}
+.dragon1 {
+  position: absolute;
+  top: calc(50% - 6px);
+  left: calc(50% - 17.5px);
+}
+.dragonWrapper {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 86px);
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-deepskyblue-200);
+  width: 85px;
+  font-size: var(--font-size-2xs);
+}
+.trend {
+  position: absolute;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 15.5px);
+}
+.trendWrapper {
+  position: absolute;
+  height: calc(100% - 5px);
+  top: 5px;
+  bottom: 0;
+  left: calc(50% + 1px);
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-deepskyblue-300);
+  width: 85px;
+  cursor: pointer;
+}
+.recentBet {
+  position: absolute;
+  top: calc(50% - 5.5px);
+  left: calc(50% - 28.5px);
+}
+.recentBetWrapper {
+  position: absolute;
+  height: calc(100% - 5px);
+  top: 5px;
+  right: 0;
+  bottom: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-deepskyblue-300);
+  width: 85px;
+  cursor: pointer;
+}
+.groupParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 346px;
+  height: 40px;
+}
+.current {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 23px);
+}
+.currentWrapper {
+  height: calc(100% - 6px);
+  top: 3px;
+  bottom: 3px;
+  left: 2px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  width: 110px;
+}
+.currentWrapper,
+.d,
+.dWrapper {
+  position: absolute;
+}
+.d {
+  top: calc(50% - 8px);
+  left: calc(50% - 8px);
+}
+.dWrapper {
+  height: calc(100% - 6px);
+  top: 3px;
+  bottom: 3px;
+  left: calc(50% - 129.5px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  width: 110px;
+}
+.customgamesContainer {
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  white-space: pre-wrap;
+}
+.customgamesWrapper {
+  position: absolute;
+  height: calc(100% - 6px);
+  top: 3px;
+  bottom: 3px;
+  left: calc(50% - 17.5px);
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  width: 110px;
+}
+.rowDraw {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 31px);
+}
+.rowDrawWrapper {
+  position: absolute;
+  height: calc(100% - 6px);
+  top: 3px;
+  right: 39px;
+  bottom: 3px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-100);
+  width: 110px;
+}
+.path36Icon {
+  position: absolute;
+  height: calc(100% - 11.11px);
+  width: calc(100% - 6.91px);
+  top: 5.71px;
+  right: 3.68px;
+  bottom: 5.41px;
+  left: 3.23px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dropDownButton {
+  position: absolute;
+  top: calc(50% - 7px);
+  right: 13px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+}
+.rightLineIn {
+  position: absolute;
+  width: 100%;
+  top: 40px;
+  right: 0;
+  left: 0;
+  background-color: var(--color-whitesmoke);
+  height: 48px;
+  font-size: var(--font-size-sm);
+  color: var(--color-deepskyblue-200);
+}
+.path50Icon,
+.rightNav {
+  height: 100%;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+}
+.rightNav {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.path50Icon {
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.lucky4d,
+.path50Icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.lucky4dParent,
+.oe1stOdd {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.lucky4dParent {
+  height: calc(100% - 5px);
+  top: 2px;
+  bottom: 3px;
+  left: 18px;
+  width: 74px;
+}
+.div,
+.row11Draw {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: calc(50% - 59.5px);
+}
+.div {
+  left: calc(50% + 112.5px);
+}
+.path36Icon1 {
+  position: absolute;
+  height: calc(100% - 6.91px);
+  width: calc(100% - 11.11px);
+  top: 3.54px;
+  right: 5.12px;
+  bottom: 3.37px;
+  left: 5.99px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dropDownButton1 {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: 17.28px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-gray-200);
+  border: 0.5px solid var(--color-white);
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  transform: rotate(270deg);
+}
+.groupDiv,
+.path50Container,
+.path50Group,
+.path50Parent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.groupDiv,
+.path50Container,
+.path50Group {
+  top: 37px;
+}
+.groupDiv,
+.path50Container {
+  top: 74px;
+}
+.groupDiv {
+  top: 111px;
+}
+.path50Parent1,
+.path50Parent2,
+.path50Parent3,
+.path50Parent4 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 296px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.path50Parent2,
+.path50Parent3,
+.path50Parent4 {
+  top: calc(50% - 259px);
+}
+.path50Parent3,
+.path50Parent4 {
+  top: calc(50% - 222px);
+}
+.path50Parent4 {
+  top: calc(50% - 185px);
+}
+.path50Parent5,
+.path50Parent6,
+.path50Parent7,
+.path50Parent8 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 148px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.path50Parent6,
+.path50Parent7,
+.path50Parent8 {
+  top: calc(50% - 111px);
+}
+.path50Parent7,
+.path50Parent8 {
+  top: calc(50% - 74px);
+}
+.path50Parent8 {
+  top: calc(50% - 37px);
+}
+.path50Parent10,
+.path50Parent11,
+.path50Parent12,
+.path50Parent9 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 0px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.path50Parent10,
+.path50Parent11,
+.path50Parent12 {
+  top: calc(50% + 37px);
+}
+.path50Parent11,
+.path50Parent12 {
+  top: calc(50% + 74px);
+}
+.path50Parent12 {
+  top: calc(50% + 111px);
+}
+.path50Parent13,
+.path50Parent14,
+.path50Parent15,
+.path50Parent16 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 148px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.path50Parent14,
+.path50Parent15,
+.path50Parent16 {
+  top: calc(50% + 185px);
+}
+.path50Parent15,
+.path50Parent16 {
+  top: calc(50% + 222px);
+}
+.path50Parent16 {
+  top: calc(50% + 259px);
+}
+.path50Parent17,
+.path50Parent18,
+.path50Parent19,
+.path50Parent20 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 112px;
+  left: 0;
+  height: 36px;
+}
+.path50Parent18,
+.path50Parent19,
+.path50Parent20 {
+  bottom: 75px;
+}
+.path50Parent19,
+.path50Parent20 {
+  bottom: 38px;
+}
+.path50Parent20 {
+  bottom: 1px;
+}
+.repeatGrid15 {
+  position: absolute;
+  height: calc(100% - 98px);
+  width: calc(100% - 2px);
+  top: 90px;
+  right: 0;
+  bottom: 8px;
+  left: 2px;
+  font-size: var(--font-size-sm);
+}
+.rightNavBarParent {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 487px;
+  height: 986px;
+  mix-blend-mode: normal;
+}
+.dragon {
+  position: relative;
+  width: 487px;
+  height: 985px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

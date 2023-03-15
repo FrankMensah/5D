@@ -1,0 +1,452 @@
+.dropdownChild {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background-color: #296fa2;
+  width: 486px;
+  height: 999px;
+}
+.path48Icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 10.25px;
+}
+.div1 {
+  top: calc(50% - 9px);
+  left: calc(50% + 25.13px);
+}
+.div1,
+.div2,
+.div3 {
+  position: absolute;
+}
+.div2 {
+  top: calc(50% - 9px);
+  left: calc(50% + 63.13px);
+}
+.div3 {
+  left: calc(50% + 101.13px);
+}
+.div3,
+.div4,
+.g10 {
+  top: calc(50% - 9px);
+}
+.div4 {
+  position: absolute;
+  left: calc(50% + 139.13px);
+}
+.g10 {
+  right: 47px;
+}
+.div5,
+.div6,
+.g10 {
+  position: absolute;
+}
+.div5 {
+  top: calc(50% - 9px);
+  right: 14px;
+}
+.div6 {
+  top: 3px;
+  left: calc(50% - 5px);
+}
+.ellipseGroup,
+.ellipseParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.ellipseParent {
+  left: 0;
+}
+.ellipseGroup {
+  left: calc(50% - 50px);
+}
+.ellipseContainer {
+  left: calc(50% - 15px);
+}
+.ellipseContainer,
+.ellipseParent1,
+.groupDiv {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.groupDiv {
+  left: calc(50% + 20px);
+}
+.ellipseParent1 {
+  right: 0;
+}
+.resultData {
+  position: absolute;
+  height: calc(100% - 6px);
+  top: 3px;
+  bottom: 3px;
+  left: 70.25px;
+  width: 170px;
+  font-size: var(--font-size-xl);
+  color: var(--color-deepskyblue-200);
+}
+.rightNavResult1,
+.rightNavResult2,
+.rightNavResult3,
+.rightNavResult4 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult2,
+.rightNavResult3,
+.rightNavResult4 {
+  top: 37px;
+}
+.rightNavResult3,
+.rightNavResult4 {
+  top: 74px;
+}
+.rightNavResult4 {
+  top: 111px;
+}
+.rightNavResult5,
+.rightNavResult6,
+.rightNavResult7,
+.rightNavResult8 {
+  position: absolute;
+  width: 100%;
+  top: 148px;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult6,
+.rightNavResult7,
+.rightNavResult8 {
+  top: 185px;
+}
+.rightNavResult7,
+.rightNavResult8 {
+  top: 222px;
+}
+.rightNavResult8 {
+  top: 259px;
+}
+.rightNavResult9 {
+  top: 296px;
+}
+.rightNavResult10,
+.rightNavResult11,
+.rightNavResult12,
+.rightNavResult9 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult10 {
+  top: 333px;
+}
+.rightNavResult11,
+.rightNavResult12 {
+  top: calc(50% - 596px);
+}
+.rightNavResult12 {
+  top: calc(50% - 559px);
+}
+.rightNavResult13,
+.rightNavResult14,
+.rightNavResult15,
+.rightNavResult16 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 522px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult14,
+.rightNavResult15,
+.rightNavResult16 {
+  top: calc(50% - 485px);
+}
+.rightNavResult15,
+.rightNavResult16 {
+  top: calc(50% - 448px);
+}
+.rightNavResult16 {
+  top: calc(50% - 411px);
+}
+.rightNavResult17,
+.rightNavResult18,
+.rightNavResult19,
+.rightNavResult20 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 374px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult18,
+.rightNavResult19,
+.rightNavResult20 {
+  top: calc(50% - 337px);
+}
+.rightNavResult19,
+.rightNavResult20 {
+  top: calc(50% - 300px);
+}
+.rightNavResult20 {
+  top: calc(50% - 263px);
+}
+.rightNavResult21,
+.rightNavResult22,
+.rightNavResult23,
+.rightNavResult24 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 226px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult22,
+.rightNavResult23,
+.rightNavResult24 {
+  top: calc(50% - 189px);
+}
+.rightNavResult23,
+.rightNavResult24 {
+  top: calc(50% - 152px);
+}
+.rightNavResult24 {
+  top: calc(50% - 115px);
+}
+.rightNavResult25,
+.rightNavResult26,
+.rightNavResult27,
+.rightNavResult28 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 78px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult26,
+.rightNavResult27,
+.rightNavResult28 {
+  top: calc(50% - 41px);
+}
+.rightNavResult27,
+.rightNavResult28 {
+  top: calc(50% - 4px);
+}
+.rightNavResult28 {
+  top: calc(50% + 33px);
+}
+.rightNavResult29,
+.rightNavResult30,
+.rightNavResult31,
+.rightNavResult32 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 70px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult30,
+.rightNavResult31,
+.rightNavResult32 {
+  top: calc(50% + 107px);
+}
+.rightNavResult31,
+.rightNavResult32 {
+  top: calc(50% + 144px);
+}
+.rightNavResult32 {
+  top: calc(50% + 181px);
+}
+.rightNavResult33,
+.rightNavResult34,
+.rightNavResult35,
+.rightNavResult36 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 218px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult34,
+.rightNavResult35,
+.rightNavResult36 {
+  top: calc(50% + 255px);
+}
+.rightNavResult35,
+.rightNavResult36 {
+  top: calc(50% + 292px);
+}
+.rightNavResult36 {
+  top: calc(50% + 329px);
+}
+.rightNavResult37,
+.rightNavResult38,
+.rightNavResult39,
+.rightNavResult40 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 366px);
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult38,
+.rightNavResult39,
+.rightNavResult40 {
+  top: calc(50% + 403px);
+}
+.rightNavResult39,
+.rightNavResult40 {
+  top: calc(50% + 440px);
+}
+.rightNavResult40 {
+  top: calc(50% + 477px);
+}
+.rightNavResult41 {
+  top: calc(50% + 514px);
+}
+.rightNavResult41,
+.rightNavResult42,
+.rightNavResult43 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult42 {
+  top: calc(50% + 551px);
+}
+.rightNavResult43 {
+  bottom: 342px;
+}
+.rightNavResult44,
+.rightNavResult45,
+.rightNavResult46,
+.rightNavResult47 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 305px;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult45,
+.rightNavResult46,
+.rightNavResult47 {
+  bottom: 268px;
+}
+.rightNavResult46,
+.rightNavResult47 {
+  bottom: 231px;
+}
+.rightNavResult47 {
+  bottom: 194px;
+}
+.rightNavResult48,
+.rightNavResult49,
+.rightNavResult50,
+.rightNavResult51 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 157px;
+  left: 0;
+  height: 36px;
+}
+.rightNavResult49,
+.rightNavResult50,
+.rightNavResult51 {
+  bottom: 120px;
+}
+.rightNavResult50,
+.rightNavResult51 {
+  bottom: 83px;
+}
+.rightNavResult51 {
+  bottom: 46px;
+}
+.rightNavResult52 {
+  bottom: 9px;
+  height: 36px;
+}
+.rightNavResult,
+.rightNavResult52,
+.rightNavResult53 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  left: 0;
+}
+.rightNavResult53 {
+  bottom: -28px;
+  height: 36px;
+}
+.rightNavResult {
+  height: calc(100% + 933px);
+  top: 0;
+  bottom: -933px;
+}
+.scrollGroup3,
+.scrollGroup3Wrapper {
+  position: absolute;
+  top: 0;
+  width: 486.25px;
+}
+.scrollGroup3 {
+  height: 100%;
+  bottom: 0;
+  left: calc(50% - 243.13px);
+  overflow-y: auto;
+  mix-blend-mode: normal;
+}
+.scrollGroup3Wrapper {
+  left: 0.75px;
+  height: 999px;
+}
+.dropdown {
+  position: relative;
+  width: 487px;
+  height: 999px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-roboto);
+}

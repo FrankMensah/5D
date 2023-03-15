@@ -1,0 +1,159 @@
+.ticketNumbersChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-white);
+  width: 310px;
+  height: 400px;
+}
+.groupChild {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 3px;
+  left: calc(50% - 5px);
+}
+.ellipseGroup,
+.ellipseParent {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.ellipseParent {
+  left: 0;
+}
+.ellipseGroup {
+  left: calc(50% - 50px);
+}
+.ellipseContainer {
+  left: calc(50% - 15px);
+}
+.ellipseContainer,
+.ellipseParent1,
+.groupDiv,
+.resultData {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  width: 30px;
+}
+.groupDiv {
+  left: calc(50% + 20px);
+}
+.ellipseParent1,
+.resultData {
+  right: 0;
+}
+.resultData {
+  width: 170px;
+}
+.div5 {
+  position: absolute;
+  top: calc(50% - 8px);
+  left: 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkslategray-100);
+}
+.resultDataGroup,
+.resultDataParent {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.resultDataGroup {
+  top: 31px;
+}
+.resultDataContainer,
+.resultDataParent1 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 123.5px);
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.resultDataParent1 {
+  top: calc(50% - 92.5px);
+}
+.resultDataParent2,
+.resultDataParent3,
+.resultDataParent4 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 61.5px);
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.resultDataParent3,
+.resultDataParent4 {
+  top: calc(50% - 30.5px);
+}
+.resultDataParent4 {
+  top: calc(50% + 0.5px);
+}
+.resultDataParent5,
+.resultDataParent6,
+.resultDataParent7 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% + 31.5px);
+  right: 0;
+  left: 0;
+  height: 30px;
+}
+.resultDataParent6,
+.resultDataParent7 {
+  top: calc(50% + 62.5px);
+}
+.resultDataParent7 {
+  top: calc(50% + 93.5px);
+}
+.resultDataParent8,
+.resultDataParent9 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 31px;
+  left: 0;
+  height: 30px;
+}
+.resultDataParent9 {
+  bottom: 0;
+}
+.groupParent {
+  position: absolute;
+  top: 15px;
+  left: 14px;
+  width: 283px;
+  height: 371px;
+}
+.ticketNumbers {
+  position: relative;
+  width: 310px;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: auto;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-deepskyblue-200);
+  font-family: var(--font-roboto);
+}
